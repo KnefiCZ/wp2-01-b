@@ -12,7 +12,7 @@
         <label for="spz">SPZ</label>
           <input id="spz" type="text" name="spz" placeholder="AAA AAAA">
         <label for="spz">Rok</label>
-          <input id="rok" type="number" min="1960" max="2018" name="rok" placeholder="1111">
+          <input id="rok" type="number" min="1900"  max="2018" name="rok" placeholder="1111">
     <br />
          <label for="auta">Auto</label>
             <select id="auta"  name="auta" >

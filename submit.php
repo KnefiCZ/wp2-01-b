@@ -14,7 +14,7 @@ $rok=filter_input(INPUT_POST, 'rok');
 ?>
 <?php
  $age=date("Y")-$rok;
-  if ($age<1980) {
+  if ($age<40) {
     $color="green";
        }
   else {
