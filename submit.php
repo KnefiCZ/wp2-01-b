@@ -13,7 +13,8 @@ $spz=filter_input(INPUT_POST, 'spz');
 $rok=filter_input(INPUT_POST, 'rok');
 ?>
 <?php
-  if (($rok>1980)&&($rok<2018)) {
+ $age=date("Y")-$rok;
+  if ($age<1980) {
     $color="green";
        }
   else {
